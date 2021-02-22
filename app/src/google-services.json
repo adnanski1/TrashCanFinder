@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887071577891",
+    "project_id": "ambienti-274216",
+    "storage_bucket": "ambienti-274216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887071577891:android:7f063477f6fa5a29a39e96",
+        "android_client_info": {
+          "package_name": "com.example.ambienti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887071577891-ih7g5gf0v1u50ad0d6qphri3d3ahvfio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ambienti",
+            "certificate_hash": "aee099e2fd88f1bfc89dd1e4d4f6cc0ce605e81e"
+          }
+        },
+        {
+          "client_id": "887071577891-o2stu37vuepse1fpsar9l7l82tsjmddv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJc0l1J2G6-eZuQKbOu01Ub6pMJFhpOgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887071577891-o2stu37vuepse1fpsar9l7l82tsjmddv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

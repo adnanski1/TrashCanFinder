@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/imageslider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/meshitarasans"
+        android:text="Mbaje"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/ambienti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/savethedate"
+        android:text="Ambientin"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/paster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/showcasescript"
+        android:text="Pastër"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="120dp"
+        android:layout_below="@id/ambienti"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:text="KËrko ShportËn\n\nafËr teje!"
+        android:textColor="#FFFFFF"
+        android:background="#D5AD07"
+        android:fontFamily="@font/meshitarasans"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="butoni"
+        />
+
+</RelativeLayout>
+
